@@ -1,0 +1,139 @@
+#backgroundImage {
+    background-color: green;
+    background: url(background3.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+.StdHead h1 {
+    text-align: center;
+}
+
+.StdHead h2 {
+    text-align: center;
+}
+
+/*
+
+footer {
+    position: static;
+    bottom: 5px;
+    left: auto;
+    background-color: #303030;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}*/
+
+footer span{
+    /*      color: #ccc; */
+         transition-delay: 150ms;
+         transition-duration: 1350ms;
+    }
+    
+    /*********************************************/
+footer {
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+    }
+
+footer button {
+    background-color: #04AA6D;
+}
+
+/*Menu*/
+.mainmenu {
+    text-align: center;
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.mainmenu a {
+    float: center;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.mainmenu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.mainmenu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/*Home page specific style*/
+
+.HomeBody {
+    text-align: center;
+}
+
+.HomeBody button {
+    background-color: #04AA6D;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 30%;
+    font-size: medium;
+}
+
+.HomeBody .centreTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.HomeBody td {
+    border: 1px solid black;
+}
+
+/*About page style*/
+
+.AboutContent {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.AboutContent td {
+    padding: 8px;
+}
+
+.AboutContent .borderRow {
+    border: 1px solid black;
+}
+
+.AboutContent table {
+    border-collapse: collapse;
+}
+
+.AboutContent p {
+    padding: 0px;
+}
+
+/*Project page*/
+.ProjectContent {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.ProjectContent .redText {
+    color: red;
+}
+
+/*Contact page*/
+
+.ContactContent a {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 1cm;
+}
