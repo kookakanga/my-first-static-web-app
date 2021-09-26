@@ -613,17 +613,25 @@ ul.subscribe-stuff li img {
    border-bottom: 1px solid #eee;
 }
 .right {
-	width: 560px;
+	width: 350px;
    float: right;
    display: inline;
    padding-right: 15px;
 }
 .left {
     position: relative;
-    width: 150px;
+    width: 350px;
     float: right;
     display: inline;
 }
+
+.fullSize {
+    position: relative;
+    width: 700px;
+    float: right;
+    display: inline;
+}
+
 .right .image-section {
 	clear: both;
 	display: block;
