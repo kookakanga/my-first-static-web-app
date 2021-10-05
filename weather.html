@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Hi There!</title>
+<title>Local Weather - About</title>
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
 </head>
@@ -13,7 +13,7 @@
     <p id="slogan">Technologist </p>
     <div  id="nav">
       <ul>
-        <li id="current"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <!--<li><a href="about.html">About me</a></li>-->
         <li><a href="mailto://bryce@bryce.id.au">Email me</a></li>
       </ul>
@@ -42,7 +42,7 @@
         <div class="fullSize">
           <h2><a>Local Weather Station</a></h2>
           <p>Home weather is a backyard weather station created for my final year project at Curtin University.</p>
-          <div class="image-section"> <img src="img/backS.jpg" alt="" height="265.22" width="500"/> </div>
+          <div class="image-section"> <img src="" alt="Image coming soon" height="265.22" width="500"/> </div>
           <!--<p><a class="more" href="about.html">About me &raquo;</a></p>-->
         </div>
       </div>
@@ -54,7 +54,9 @@
         <h2>About</h2>
         <br>
         <p>
-	          The weather station is located about 250m above sea level. Situated in the Perth Hills, Home Weather takes observations every 15 minutes. 
+	          The weather station is located about 250m above sea level. Situated in the Perth Hills, Home Weather takes observations every 15 minutes. <br>
+            Data is stored using Microsoft Azure free credit for Students using a MySQL database. <br>
+            Code is written in Python as well as HTML, PHP, CSS and SQL. 
 	     </p>
       </div>
 
@@ -67,43 +69,66 @@
       <div class="post">
         <div class="left">
           <h3><a>Processor</a></h3>
-          <p>BME280</p>
+          <p>Local Weather runs on a Raspberry Pi. My version uses a Raspberry Pi 4 with 4GB RAM. The actual resources are significantly lower so a lower model of Pi can be used. </p>
         </div>
         <div class="right">
-          <img src="img/4.JPG" width="193" height="146" alt="Flower" class="float-left"/>
+          <img src="" width="193" height="146" alt="Image coming soon" class="float-left"/>
 
         </div>
       </div>
       <div class="post">
         <div class="left">
-          <img src="img/8.JPG" width="193" height="146" alt="Flower" class="float-left"/>
-
+          <img src="" width="193" height="146" alt="Image coming soon" class="float-left"/>
         </div>
         <div class="right">
           <h3><a>Temperature, Pressure and Humidity</a></h3>
-          <p>BME280</p>
-
+          <p>Temperature, Pressure and Humidity are measured using a BME280 sensor 
+            <a href="https://www.aliexpress.com/item/32832009083.html?src=google&memo1=freelisting&src=google&albch=shopping&acnt=708-803-3821&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=11492545420&albag=112296941236&trgt=539263010115&crea=en32832009083&netw=u&device=c&albpg=539263010115&albpd=en32832009083&gclid=CjwKCAjw7--KBhAMEiwAxfpkWLpKWXUdfdnckku195WwMoRs0hDmN3XkGN424t9oZiCQg2w0qoAbTRoC7koQAvD_BwE&gclsrc=aw.ds&aff_fcid=3bb632bbfada4c37b586cdf3c3a6c0c5-1633419247648-05469-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=3bb632bbfada4c37b586cdf3c3a6c0c5-1633419247648-05469-UneMJZVf&terminal_id=1354f9de6f3a46f2bdc49881ecf17388">
+              More info
+            </a>
+          </p>
         </div>
       </div>
       <div class="post">
         <div class="left">
           <h3><a>Rain and Wind</a></h3>
-			<p>BME280</p>        
+			<p>The anemometer and rain guage is a sparkfun Weather Meter Kit. 
+        Rain is measured in increments of 0.2794mm. <a href="https://core-electronics.com.au/weather-meter-kit.html">More info</a>
+      </p>        
 		</div>
         <div class="right">
-          <img src="img/9.jpg" width="193" height="146" alt="Yellow Flower" class="float-left"/>
+          <img src="" width="193" height="146" alt="Image coming soon" class="float-left"/>
         </div>
       </div>
 
 
-      <!-- Personal-->
+      <!-- Accuracy-->
       <div class="post">
         <div class="fullSize">
           <h2><a>Accuracy information</a></h2>
-          <p>TBA</p>
-
-          <div class="image-section"> <img src="img/Hiking.jpg" alt="" height="200" width="397"/> </div>
-        </div>
+          <p>Specifications for BME280 sensor state:
+            <ul>
+              Temperature: +-1°C
+            </ul>
+            <ul>
+              Humidity: +-3%
+            </ul>
+            <ul>
+              Pressure: +-1Pa
+            </ul>
+          </p>
+          <h3>Comparison to Official Government Sources</h3>
+          <p>
+            Readings are measured against <a href="http://www.bom.gov.au/products/IDW60901/IDW60901.94615.shtml">Gooseberry Hill Bureau of Meterology</a> <br>
+            Altitude difference of -30m from Local Weather approximatly 30km south. <br>
+            <ul>Temperature: </ul>
+            <ul>Pressure: </ul>
+            <ul>Humidity: </ul>
+            <ul>Wind speed: </ul>
+            <ul>Wind direction: </ul>
+            <ul>Rainfall: </ul>
+          </p>
+          <img src="" width="193" height="146" alt="Image coming soon" class="float-left"/>        </div>
       </div>
 
 
