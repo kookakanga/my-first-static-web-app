@@ -1,3 +1,10 @@
+Welcome to my personal CV website. 
+
+This site is made with Azure static web apps - Free for personal use, but the code is hosted using GitHub, hence this is here. 
+
+I suggest you head over to https://bryce.id.au rather than spending your time here.
+
+
 # Vanilla JavaScript App
 
 
