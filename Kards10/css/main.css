@@ -1122,7 +1122,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	background: url("../images/logoB.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1567,7 +1567,7 @@ header .logo a {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: 350px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
@@ -1697,7 +1697,7 @@ header .logo a {
    text-align: center;
 }
 .button-section .button {
-   width: 250px;
+   /*width: 250px;*/
 }
 .button-section [class*="col-"] .button:first-child {
    margin-right: 4rem;
