@@ -1,4 +1,5 @@
 For all classes .fa
 
 Font Awesome list at https://astronautweb.co/snippet/font-awesome-icons-v4-2/ 
+Or https://fontawesome.com/v4.7/icons/
 
