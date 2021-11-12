@@ -1,356 +1,644 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--Bryce Duncan personal website, written by Bryce based on design from styleshout.-->
+
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<title>Hi There!</title>
-<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+
+<!--- basic page needs
+   ================================================== -->
+<meta charset="utf-8">
+	<title>Hi there</title>
+	<meta name="description" content="About me">  
+	<meta name="author" content="Bryce Duncan">
+
+<!-- mobile specific metas
+================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/base.css">  
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/vendor.css">     
+
+<!-- script
+================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body>
-<!--header -->
-<div id="header-wrap">
-  <div id="header"> <a name="top"></a>
-    <h1 id="logo-text"><a>Bryce Duncan</a></h1>
-    <p id="slogan">Technologist </p>
-    <div  id="nav">
-      <ul>
-        <li id="current"><a href="index.html">Home</a></li>
-        <!--<li><a href="about.html">About me</a></li>-->
-        <li><a href="mailto://bryce@bryce.id.au">Email me</a></li>
-      </ul>
-    </div>
-    <!--Main menu link button
-    <p id="rss"> <a href="#">Grab the RSS feed</a> </p>
-    <form id="quick-search" method="get" action="#">
-      <fieldset class="search">
-        <label for="qsearch">Search:</label>
-        <input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." />
-        <button class="btn">Search</button>
-      </fieldset>
-    </form>-->
-    <!--/header-->
-  </div>
-</div>
-<!-- content-outer -->
-<div id="content-wrap" class="clear" >
-  <!-- content -->
-  <div id="content">
-    <!-- main -->
-    <div id="main">
 
-      <!-- Intro Post-->
-      <div class="post">
-        <div class="fullSize">
-          <h2><a>Hi there!</a></h2>
-          <p>My name is Bryce Duncan, I am a final year bachelor of Technology (Computer Systems and Networking) student at Curtin University.</p>
-          <div class="image-section"> <img src="img/backS.jpg" alt="" height="265.22" width="500"/> </div>
-          <!--<p><a class="more" href="about.html">About me &raquo;</a></p>-->
-        </div>
-      </div>
-      <!-- End of a post-->
+<body id="top">
 
-      <div class="fullSize">
-        <h2>Industry certifications and courses</h2>
-        <br>
-      </div>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-      <!-- Certifications area-->
-      <div class="post">
-        <div class="right">
-          <h3 color="black"><a>AWS Academy Graduate - AWS Academy Cloud Foundations</a></h3>
-          <p class="post-info">Filed under <a>Certifications</a>, <a>AWS</a></p>
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e64b2297-4fbe-4920-beea-dbbc13227cab" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-        <div class="left">
-          <h3><a>CCNA: Introduction to Networks</a></h3>
-          <p class="post-info">Filed under <a>Certifications</a>, <a>Cisco</a></p>
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3032937f-2170-402a-8f66-a147f5095776" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-      </div>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
+	   		<div class="logo">
+		         <a href="index.html">Menu</a>
+		      </div>		      
 
-      <div class="post">
-        <div class="left">
-          <h3><a>CCNA: Switching, Routing and Wireless Essentials</a></h3>
-          <p class="post-info">Filed under <a>Certifications</a>, <a>Cisco</a></p>
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="806916c5-51e5-4c48-84da-e50f50e3e7f9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-        <div class="right">
-          <h3><a>CCNA: Enterprise Networking, Security and Automation</a></h3>
-          <p class="post-info">Filed under <a>Certifications</a>, <a>Cisco</a></p>
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="504b3d12-6b7d-47e0-ac25-30b075e07cec" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        </div>
-      </div>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#certifications" title="">Certifications</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>	
+						<li><a class="smoothscroll"  href="#cta" title="">Links</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hi there</h5>
+	   			<h1>Bryce Duncan</h1>
+
+	   			<p class="intro-position">
+	   				<span>Systems Administrator</span>
+	   				<span>Network Engineer</span> 
+					<span>IOT Developer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+        <li><a href="https://www.linkedin.com/in/bduncan4/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/kookakanga/"><i class="fa fa-github"></i></a></li>
+		<li><a href="https://blog.bryce.id.au"><i class="fa fa-wordpress"></i></a></li>
+		<li><a href="mailto://bryce@bryce.id.au"><i class="fa fa-envelope"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/gravatar.jpg" alt="Profile Picture">
+
+				<p class="lead">
+					I am a final Year Technology student 
+					aiming to enter the information technology field 
+					to apply and expand my understanding and knowledge of 
+					technology and ICT, further develop my problem-solving 
+					skills and gain hands on experience. </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>My details</h3>
+   			<p></p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Name:</strong>
+   					<span>Bryce Duncan</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+						<div class="alert-box ss-info hideit">
+				        <p>Seeking work</p>
+				        <i class="fa fa-times close"></i>
+			        </div><!-- /notice -->
+   					<span></span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span><a href="https://www.bryce.id.au">www.bryce.id.au</a></span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span><a href="mailto://bryce@bryce.id.au">bryce@bryce.id.au</a></span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+			<h3>Skills</h3>
+			<p>I have developed a wide range of technical skills in areas from software development, IOT development and server operating systems. My strongest technical skills are:</p>
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Cisco CLI</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Arduino</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Python</strong>
+					</li>
+					<li>
+						<div class="progress percent65"><span>65%</span></div>
+						<strong>SQL</strong>
+					</li>
+					<li>
+						<div class="progress percent55"><span>55%</span></div>
+						<strong>PHP</strong>
+					</li>
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Linux command line</strong>
+					</li>
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="mailto://bryce@bryce.id.au" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="cv.pdf" title="Download CV" class="button button-primary">Download Resume as PDF</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+   <!-- Certifications
+   ================================================== -->
+   <section id="certifications"  class="grey-section">  
+
+	<div class="row section-intro">
+		<div class="col-twelve">
+
+			<h5>Certifications</h5>
+			<h1>I have completed the following certifications/couses</h1> 			
+		</div>   		
+	</div> <!-- /section-intro -->
+
+	<div class="row about-content">
 
 
-      <!-- Work experience area-->
-      <div class="fullSize">
-        <h2>Work experience</h2>
-        <br>
-      </div>
-      <div class="post">
-        <div class="left">
-          <p>
-            During my Internship at Eilbeck Cranes I was designing a solution for the company to manage compliance. This involved researching options, reading documentation, communicating with the developers and taking nessessary training. 
-          </p>
-          <p>
-            I also gained experience with processes in the manufactering industry.
-          </p>
-        </div>
-        <div class="right">
-          <h3><a>Technology Intern at Eilbeck Cranes</a></h3>
-          <p class="post-info">2021</p>
-          <p></p>
-        </div>
-      </div>
-      <blockquote>
-        <p>Bryce was very professional and completed the task on time, we are happy with Bryce's internship.</p>
-        <p class="align-right"> - Santhosh - Internship Supervisor</p>
-      </blockquote>
+		<!--Add new certifications to the top of the list!-->
 
-      <div class="post">
-        <div class="left">
-          <p>Working at a wide variety of venues thoughout metro and country Western Australia I have developed many skills and passions which influence my current day values including dedication and always learning.
+		<div class="col-six tab-full">
+			<h3>AWS Academy</h3>
+			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e64b2297-4fbe-4920-beea-dbbc13227cab" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+		</div>
 
-          </p>
-        </div>
-        <div class="right">
-          <h3><a>Swimming Intructor</a></h3>
-          <p class="post-info">2019-Current</p>
-        </div>
-      </div>
+		<div class="col-six tab-full">
+			<h3>CCNA: Introduction to Networks</h3>
+			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3032937f-2170-402a-8f66-a147f5095776" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+		</div>
 
-      <div class="post">
-        <div class="left">
-          <p>
-            I maintain the website and IT requirements for the Hills Night Hockey Association in Mundaring. Duties include email administration, score (data) input and finding technical solutions to problems identified by members, commitee or myself for the Association.
-          </p>
-          <p>
-            In 2019 I completly rebranded the Website to reflect the new facilities used by the Association. This involved learning new wordpress, database and php skills and associated troubleshooting skills. 
-          </p>
-        </div>
-        <div class="right">
-          <h3><a>Website Manager</a></h3>
-          <p class="post-info">2016-Current &nbsp; Volunteer position</p>
-          <img src="img/hnhaLogo.png" width="150" height="99" alt="Hills Night Hockey Logo" class="float-left"/>
+		<div class="col-six tab-full">
+			<h3>CCNA: Switching, Routing and Wireless Essentials</h3>
+			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="806916c5-51e5-4c48-84da-e50f50e3e7f9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+		</div>
 
-        </div>
-      </div>
+		<div class="col-six tab-full">
+			<h3>CCNA: Enterprise Networking, Security and Automation</h3>
+			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="504b3d12-6b7d-47e0-ac25-30b075e07cec" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+		</div>
 
-      <!-- Technical skills-->
-      <div class="post">
-        <div class="fullSize">
-          <h2><a>Technical Skills</a></h2>
-          <p>
-            I have experience with the following technologies
-          </p>
-          <ul>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>Cisco IOS Command line</li>
-            <li>C Programming Language</li>
-            <li>Bash terminal on Linux Operating System</li>
-          </ul>
-          <p>And many more!</p>
-          <div class="image-section"> <img src="img/2.jpg" alt="" height="200" width="500"/> </div>
-        </div>
-      </div>
+	</div>
 
+	<div class="row button-section">
+		<div class="col-twelve">
+			<a href="https://www.credly.com/users/bryce-duncan" title="Credly" class="button stroke smoothscroll">View my Credly</a>
+			<a href="#" title="Download CV" class="button button-primary">Download Resume as PDF</a>
+		</div>   		
+	</div>
 
-
-      <!-- Key skills-->
-      <div class="fullSize">
-        <h2>Key Skills</h2>
-        <br>
-      </div>
-      <div class="post">
-        <div class="left">
-          <h3><a>Communication skills</a></h3>
-        </div>
-        <div class="right">
-          <img src="img/4.JPG" width="193" height="146" alt="Flower" class="float-left"/>
-
-        </div>
-      </div>
-      <div class="post">
-        <div class="left">
-          <img src="img/8.JPG" width="193" height="146" alt="Flower" class="float-left"/>
-
-        </div>
-        <div class="right">
-          <h3><a>Organised and motivated</a></h3>
-        </div>
-      </div>
-      <div class="post">
-        <div class="left">
-          <h3><a>Open to new ideas and techniques</a></h3>
-          <p>In accordance with my personal value of always learning, I always take on feedback and attempt to incorporate into my work.</p>
-        </div>
-        <div class="right">
-          <img src="img/9.jpg" width="193" height="146" alt="Yellow Flower" class="float-left"/>
-        </div>
-      </div>
-
-      <!-- Values-->
-      <div class="fullSize">
-        <h2>Values</h2>
-        <br>
-        <!--<p><a><img src="img/3.jpg" width="110" height="146" alt="Yellow Flower" class="float-left" /></a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libe tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsu. </p>-->
-      </div>
-
-      <!-- 3 Values area-->
-      <div class="post">
-        <div class="left">
-          <h3><a>Passion</a></h3>
-        </div>
-        <div class="right">
-          <img src="img/7.JPG" width="193" height="146" alt="Yellow Flower" class="float-left"/>
-        </div>
-      </div>
-      <div class="post">
-        <div class="left">
-          <img src="img/5.JPG" width="193" height="146" alt="Yellow Flower" class="float-left"/>
-        </div>
-        <div class="right">
-          <h3><a>Dedication</a></h3>
-          <p>I always approach my tasks with a can do attitude.</p>
-        </div>
-      </div>
-      <div class="post">
-        <div class="left">
-          <h3><a>Always learning</a></h3>
-          <p>I always want to learn more, that's why I made this website in the first place!</p>
-        </div>
-        <div class="right">
-          <img src="img/6.JPG" width="193" height="146" alt="Yellow Flower" class="float-left"/>
-        </div>
-      </div>
-
-
-      <!-- Personal-->
-      <div class="post">
-        <div class="fullSize">
-          <h2><a>Outside of work</a></h2>
-          <p>
-            Outside of work I enjoy outdoor adventure activities including Hiking local or overseas trails, cycling, Geocaching and Kayaking. 
-            <br>I have been a member of the World Wide Scouting Movement for over 13 years with various leadership and challening roles. 
-            During my 13+ years I have achieved many pristigous awards including The Queen Scout Award, Australian Scout Medallion and the Adult Recognition Award.
-            <br>I also enjoy photography, particularly of nature. All images featured on this website were taken by myself (Except images of me).
-          </p>
-
-          <div class="image-section"> <img src="img/Hiking.jpg" alt="" height="200" width="397"/> </div>
-        </div>
-      </div>
+</section> <!-- /process-->    
 
 
 
+<!-- resume Section
+================================================== -->
+<section id="resume">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Not only do I have lots of technical 
+				   experience but I also have experience teaching 
+				   and mentoring people from a variety of age groups 
+				   and cultural backgrounds.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Information Technology Intern</h3>
+	   					<p>July 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Eilbeck Cranes</h4>
+	   					<p>
+							During my Internship at Eilbeck Cranes I was designing a solution 
+							for the company to manage compliance. This involved researching options, 
+							reading documentation, communicating with the developers and taking nessessary training.
+							<br><br>
+							I also gained experience with processes in the manufactering industry.
+						</p>
+						<blockquote>
+							<p>
+								Bryce was very professional and completed the task on time, we are happy with Bryce's internship.
+							</p>
+							<cite>
+								<a>Santhosh - Internship Supervisor</a>
+							</cite>
+						</blockquote>
+		 
+				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Teacher of Swimming and Water Safety</h3>
+	   					<p>2019 - Current</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Department of Education (WA)</h4>
+	   					<p>
+							During my 3 years working for the Department of Education and a private swim school, I have worked at more than 8 different facilities and have taught over 300 students. 
+							I have developed many communication skills as well as being able to adapt to change and the needs of all students. <br><br>
+							I have also worked at a private swim school, increasing my communication skills and ability to achieve results. 
+						</p>
+	   				</div>
+
+					   <div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-wrench"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Website Manager</h3>
+							<p>2018 - Current<br>
+							Volunteer position</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Website Manager</h4>
+							<p>
+								I maintain the website and IT requirements for the Hills Night Hockey Association in Mundaring. 
+								Duties include email administration, score (data) input and finding technical solutions to problems identified by members, commitee or myself for the Association. <br>
+								I set up and maintain a Google Workspace account for committee members. <br>
+								In 2019 I completely rebranded the Website to reflect the new facilities used by the Association. 
+								This involved learning new wordpress, database and php skills and associated troubleshooting skills.
+							</p>
+							<div class="action">
+								<a class="button stroke full-width" href="https://hnha.com.au">Check it out!</a>
+							</div>
+						</div>
+
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+	</div> <!-- /resume-header -->
+		<div class="col-twelve">
+			<div class="timeline-wrap">
+				<!--Timeline block-->
+				<div class="timeline-block">
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Bachelor Degree</h3>
+						<p>January 2019 - Current <br>
+						Expected completion end of 2021</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Curtin University</h4>
+						<p>
+							For my final year of University, my project I created a Local Weather observation IOT connected device.
+						</p>
+						<div class="action">
+							<a class="button stroke full-width" href="https://weather.bryce.id.au">Check it out!</a>
+						</div>
+						<br>
+						<p>
+							Electives I took as part of my course are: Computing Topics, Cyber Security- Intrusion Detection System and Incident Handling and Artificial and Machine Intelligence.<br>
+							Throughout my course I have undertaken Cisco Netacad Training and AWS Academy Cloud Foundations.<br>
+							During my final semester at Curtin Univeristy I volunteered to be a New to Curtin mentor. This role included communicating with first semester students with 
+							tips and tricks for succeeding at their studies. Most of this communication was done by email however some "face to face" communication was required.<br>
+							I was a member of: IEEE Curtin Student Branch, COMSSA (Computer Science Students Association), IET on Campus.
+						</p>
+					</div>
+				</div>
+			</div> <!-- /timeline-block -->
+
+
+
+				<div class="timeline-block">
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+					<div class="timeline-header">
+						<h3>West Australian Certificate of Education (WACE)</h3>
+						<p>Completed 2018</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>High School</h4>
+						<p>
+							I completed year 12 and achieved my West Australian Certificate of Education (WACE). 
+							I also participated in many extra curricular clubs including Robotics and Media Club.
+						</p>
+					</div>
+				</div> <!-- /timeline-block -->
+			</div> <!-- /timeline-wrap -->   			
+		</div> <!-- /col-twelve -->
+	</div> <!-- /resume-timeline -->
+</section> <!-- /features -->
+
+
+
+	
+<!-- services Section
+================================================== -->
+	<div id="services">
+		<div class="overlay"></div>
+			<div class="row section-intro">
+				<div class="col-twelve">
+					<h1>What Can I Do?</h1>
+					<p class="lead">I have developed the following technical skills.</p>
+				</div>   		
+			</div> <!-- /section-intro -->
+			<div class="row services-content">
+				<div id="owl-slider" class="owl-carousel services-list">
+					<!-- Windows and Linux admin-->
+					<div class="service">	
+						<span class="icon"><i class="icon-earth"></i></span>            
+						<div class="service-content">
+							<h3>Linux and Windows Admin</h3>
+							<p class="desc">
+								I have experience working with both Linux and Windows Server editions. <br>
+								I have three years experience with Ubuntu Server version 18-20<br>
+								I am familiar with Bash scripting.
+							</p>
+						</div> 	         	 
+					</div> 
+					<!-- Web development -->
+					<div class="service">	
+						<span class="icon"><i class="icon-window"></i></span>                          
+						<div class="service-content">	
+							<h3>Web Development</h3>  
+							<p class="desc">
+								I have experience using Wordpress, PHP, HTML and CSS code to develop front end websites.<br>
+								This website is written in HTML and CSS using a Microsoft Azure Static Web app. 
+							</p>
+						</div>	                          
+					</div> 
+					<!-- Security -->
+					<div class="service">
+						<span class="icon"><i class="icon-id"></i></span>		            
+						<div class="service-content">
+							<h3>Security</h3>
+							<p class="desc">
+								I have experience working with many tools for security including Wireshark and SGUIL (For SNORT rules).<br>
+								I am familiar with many Cyber security concepts including server hardening and ICT policy.
+							</p> 
+						</div> 	            	               
+					</div> 
+					<!-- /service -->
+					<div class="service">
+						<span class="icon"><i class="icon-network"></i></span>	              
+						<div class="service-content">
+							<h3>Network management</h3>
+							<p class="desc">
+								I have experience with traditional and modern wireless and wired network technologies. <br>
+								I have undertaken training through Cisco Netacad to gain up to date workplace skills.
+							</p> 
+						</div>                
+					</div> 
+					<!-- /service -->
+					<div class="service">
+						<span class="icon"><i class="icon-image"></i></span>	            
+						<div class="service-content">
+							<h3>IOT developer</h3>
+							<p class="desc">
+								I have experience working with Arduino (Including similar products such as MSP430) as well as Raspberry Pi.
+							</p> 
+						</div>	               
+					</div> <!-- /service -->
+					<div class="service">
+						<span class="icon"><i class="icon-cloud"></i></span>	   	           
+						<div class="service-content">
+							<h3>Cloud Computing</h3>
+							<p class="desc">
+								I have one year experience working with Amazon Web Service (AWS) and Microsoft Azure. I have taken AWS training and have hosted multiple web applications in 
+								Microsoft Azure. 
+							</p> 
+						</div>	               
+					</div> <!-- /service -->
+					<div class="service">
+						<span class="icon"><i class="icon-chat"></i></span>	            
+						<div class="service-content">
+							<h3>Problem solver</h3>
+							<p class="desc">
+								With 9 years of experience with Mac OSX and over 10 years experience using Microsoft Windows I have learned many common troubleshooting techniques and 
+								other common problem solving techniques. I am profissent with Microsoft Office 365 and Adobe Acrobat.
+							</p> 
+						</div>	               
+					</div> <!-- /service -->
+				</div> <!-- /services-list -->
+			</div> <!-- /services-content -->
+		</div> <!-- /overlay-->
+	</section> <!-- /services -->	
+
+
+	<!-- Links Section
+================================================== -->
+<section id="cta" class="grey-section">
+	<div class="row cta-content">
+		<div class="col-twelve section-ads">  
+			<h2 class="h01"><a>Useful links</a></h2>
+			<p class="lead">
+				
+			</p>
+			<div class="action">
+				<p> <a href="https://app.studium.work/app/student/view/8273">Recruiters and Employers can view my profile on Studium <i class="fa fa-pie-chart"></i></a></p>
+				<a class="button button-default full-width" href="https://app.studium.work/app/student/view/8273">Studium</a>
+				<br><br><br>
+				<p> <a href="https://www.credly.com/users/bryce-duncan">Validate my certifications on Credly <i class="fa fa-certificate"></i></a></p>
+				<a class="button button-primary full-width" href="https://www.credly.com/users/bryce-duncan">Credly</a>
+				<br><br><br>
+				<p> <a href="mailto://?subject=Bryce Duncan's Website&body=https://bryce.id.au">Share my profile with a colleague <i class="fa fa-share-square-o"></i></p>
+				<a class="button stroke full-width" href="mailto://?subject=Bryce Duncan's Website&body=https://bryce.id.au">Share</a>
+			</div>		     	
+		</div>
+	</div> <!-- /cta-content -->
+</section> <!-- /cta --> 
+
+	
+<!-- contact
+================================================== -->
+	<section id="contact">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+				<p class="lead">Send me an email bryce [at] bryce.id.au</p>
+			</div> 
+		</div> <!-- /section-intro -->
+		<div class="row contact-info">
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-user"></i>
+				</div>
+				<h5>Bryce Duncan</h5>
+				<p>
+					Technologist from<br>
+					Perth Western Australia
+				</p>
+			</div>
+			<div class="col-four tab-full collapse">
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+				<h5>Email Me At</h5>
+				<p>
+					bryce [at] bryce.id.au			     
+				</p>
+			</div>
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-wi-fi"></i>
+				</div>
+				<a class="button button-primary" href="cv.pdf">Download my CV</a>
+				<p>
+
+				</p>
+			</div>
+		</div> <!-- /contact-info -->
+	</section> <!-- /contact -->
 
 
 
 
+	
+<!-- footer
+================================================== -->
 
+<footer>
+	<div class="row">
+		<div class="col-six tab-full pull-right social">
+			<!--Location for social link icons-->
+			<ul class="footer-social">        
+				<li><a href="https://www.linkedin.com/in/bduncan4/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/kookakanga/"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://blog.bryce.id.au"><i class="fa fa-invert fa-wordpress"></i></a></li>
+				<!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+			</ul> 
+		</div>
+		<div class="col-six tab-full">
+			<div class="copyright">
+				<span>© Copyright Bryce Duncan.</span> 
+				<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+			</div>		                  
+		</div>
+		<div id="go-top">
+			<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		</div>
+    </div> <!-- /row -->     	
+</footer>  
 
+<div id="preloader"> 
+    <div id="loader"></div>
+</div> 
 
+<!-- Java Script
+================================================== --> 
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-
-
-
-
-
-      <!-- End of main posts -->
-    </div>
-    <!-- sidebar -->
-    <div id="sidebar">
-      <div class="about-me">
-        <h3>About Me</h3>
-        <p> 
-          <a><img src="images/gravatar.jpg" width="40" height="40" alt="" class="float-left" /></a> 
-          I am a final Year Technology student aiming to enter the information technology field to apply and expand my understanding and knowledge of technology and ICT, further develop my problem-solving skills and gain hands on experience.  
-          <!--<a href="about.html">Learn more...</a> -->
-        </p>
-      </div>
-      <div class="sidemenu">
-        <h3>Menu</h3>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <!--<li><a href="about.html">About Me</a></li>-->
-          <li><a href="mailto://bryce@bryce.id.au">Contact me</a></li>
-        </ul>
-      </div>
-      <div class="sidemenu">
-        <h3>External links</h3>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/bduncan4/">Linkedin <br />
-            <span>View my profile on Linkedin</span></a> </li>
-          <li><a href="https://app.studium.work/app/student/view/8273">Studium <br />
-            <span>Recruiters can view my academic profile using Studium</span></a> </li>
-          <li><a href="https://www.credly.com/users/bryce-duncan">Credly <br />
-            <span>Validate my certifications</span></a> </li>
-            <li><a href="https://github.com/kookakanga">GitHub <br />
-              <span>View my GitHub profile</span></a> </li>
-        </ul>
-      </div>
-      <div class="popular">
-        <h3>My other work</h3>
-        <ul>
-          <li><a href="https://weather.bryce.id.au">Local Weather Project</a> <br />
-            <span>My Computer Technology Project at University</span> </li>
-          <li><a href="http://hnha.com.au">Hills Night Hockey Website</a> <br />
-            <span>Develop and maintain Wordpress website for community group</span> </li>
-        </ul>
-      </div>
-      <!-- /sidebar -->
-    </div>
-    <!-- content -->
-  </div>
-  <!-- /content-out -->
-</div>
-<!-- footer-outer -->
-<div id="footer-outer" class="clear">
-  <div id="footer-wrap">
-    <!--<div id="gallery" class="clear">
-      <h3>Flickr Photos </h3>
-      <p class="thumbs"> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> </p>
-    </div>-->
-    <div class="col-a">
-      <h3>E-mail: </h3>
-      <p>bryce@bryce.id.au</p>
-    </div>
-    <div class="col-a">
-      <h3>Site Links</h3>
-      <div class="footer-list">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="CV.pdf">Download my CV as a PDF</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-a">
-      <h3>Share my profile</h3>
-      <div class="footer-list">
-        <ul>
-          <li><a href=" mailto:?subject=Bryce Duncan's Website&body=https://bryce.id.au "> Email someone </a> </li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-b">
-      <h3>Archives</h3>
-      <div class="footer-list">
-        <ul>
-          <li><a>2021</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- /footer-outer -->
-  </div>
-</div>
-<!-- footer-bottom -->
-<div id="footer-bottom">
-  <p class="bottom-left"> &copy; 2021 <strong>Bryce Duncan</strong>&nbsp; &nbsp; &nbsp; <a href="http://www.stylishtemplate.com/">website templates</a> by <a href="http://www.styleshout.com/">styleshout</a> 
-    &nbsp; &nbsp; &nbsp; Last updated <strong>September 2021</strong></p>
-  <p class="bottom-right"><a href="#">Home</a> | <strong><a href="#top">Back to Top</a></strong> </p>
-  <!-- /footer-bottom-->
-</div>
 </body>
+
 </html>

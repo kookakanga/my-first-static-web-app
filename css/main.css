@@ -2262,7 +2262,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #0400ff;
+	color: #006eff;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2284,7 +2284,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #0400ff;
+	color: #006eff;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2312,7 +2312,7 @@ header .logo a {
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #0400ff;
+	background: #006eff;
 }
 
 
@@ -2398,7 +2398,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #0400ff;
+	color: #006eff;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2520,7 +2520,7 @@ header .logo a {
 	color: #fa0003;
 }
 #message-success {
-	color: #0400ff;
+	color: #006eff;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -2548,6 +2548,11 @@ header .logo a {
 .oldie #submit-loader .text-loader {
 	display: block;
 }
+
+
+/*Before footer contact details*/
+
+
 .contact-info {
 	margin: 4.8rem auto 0;
 	font-family: "poppins-regular", sans-serif;
@@ -2562,10 +2567,10 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FFFFFF;
+	color: #006eff;
 }
 .contact-info h5 {
-	color: #0400ff;
+	color: #ffffff;
 }
 
 /**
